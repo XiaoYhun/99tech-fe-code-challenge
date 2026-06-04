@@ -46,7 +46,7 @@ export default function SwapForm() {
   }
 
   return (
-    <div className="flex flex-col gap-1 w-[400px] bg-black p-2 rounded-t-[26px] rounded-b-[20px] shadow-[0_35px_90px_-15px_rgba(0,0,0,0.9)]">
+    <div className="flex flex-col gap-1 w-full max-w-[400px] bg-black p-2 rounded-t-[26px] rounded-b-[20px] shadow-[0_35px_90px_-15px_rgba(0,0,0,0.9)]">
       <CurrencyInput
         title="From"
         token={tokenIn}

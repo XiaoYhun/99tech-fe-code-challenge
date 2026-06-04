@@ -5,10 +5,10 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className="flex flex-col gap-5 w-full h-screen justify-center items-center">
+    <div className="flex flex-col gap-5 w-full min-h-screen justify-center items-center px-4 py-8">
       <h1
         style={{ fontFamily: '"Inter", sans-serif' }}
-        className="text-4xl font-extrabold tracking-tight text-white/95 drop-shadow-[0_2px_10px_rgba(99,102,241,0.35)]"
+        className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white/95 drop-shadow-[0_2px_10px_rgba(99,102,241,0.35)]"
       >
         Swap Form
       </h1>

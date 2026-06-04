@@ -51,7 +51,7 @@ export default function CurrencyInput({
         <div className="font-extrabold text-sm text-neutral-400">{title}</div>
         <div>
           {isLoading ? (
-            <Skeleton className="w-[250px] h-[40px] opacity-90 rounded-full" />
+            <Skeleton className="w-full max-w-[250px] h-[40px] opacity-90 rounded-full" />
           ) : (
             <Input
               ref={inputRef}

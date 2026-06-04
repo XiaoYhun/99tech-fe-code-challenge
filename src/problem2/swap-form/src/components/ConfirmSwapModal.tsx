@@ -15,7 +15,7 @@ export default function ConfirmSwapModal({ isOpen, onClose }: { isOpen: boolean;
   return (
     <Modal
       isOpen={isOpen}
-      className="w-[300px]"
+      className="w-full max-w-[300px] mx-4"
       backdrop="blur"
       onClose={handleClose}
       classNames={{ base: "overflow-hidden" }}
