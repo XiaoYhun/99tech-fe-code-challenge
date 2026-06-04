@@ -21,6 +21,7 @@ export default function SwapForm() {
   const { balances } = useTokenBalances();
   const tokenInBalance = useMemo(() => (tokenIn?.symbol ? balances[tokenIn?.symbol] || 0 : 0), [balances, tokenIn]);
   const debouncedAmountIn = useDebounce(amountIn, 500)[0];
+
   const isLoading = swapState === "loading";
 
   const handleSwapClick = () => {
